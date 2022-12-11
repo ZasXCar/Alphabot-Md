@@ -24,8 +24,7 @@ const {
 
 const {
     state,
-    saveState
-} = useSingleFileAuthState(`./${sessionName}.json`)
+    saveState } = useSingleFileAuthState(`./${sessionName}.json`)
 const pino = require('pino')
 const figlet = require("figlet");
 const {
